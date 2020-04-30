@@ -7,25 +7,25 @@
 h1 {
 	font-family: Brushstroke,fantasy;
 	color:#000000;
-	text-align=center;
+	text-align: center;
 }
 
 body {
+	font-family: "Comic Sans MS", cursive, sans-serif;
 	background color:red;
 }
 
 p {
 	padding: 10px;
-	margin: 0;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .container {
-	border: none;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding: 10px;
+	border: 1px solid black;
+	margin: 2px 10px 15px 10px;
+	padding: 0px 10px 0px 10px;
+	background-color: #cccccc;
 }
 
 section {
@@ -175,7 +175,7 @@ section {
 /* Mobile view */
 
 @media (max-width: 768px){
-	.col-sm-1, .col-sm-2, .col-sm-3 .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{
 		float: left;
 	}
 	.col-sm-1 {
