@@ -1,34 +1,34 @@
 /* Base Styles */
 
-* {
-	box-sizing: border:box;
-}
+ * {
+	box-sizing: border-box;
+ }
 
-h1 {
+ h1 {
 	font-family: Brushstroke,fantasy;
 	color:#000000;
 	text-align=center;
-}
+ }
 
-body {
+ body {
 	background color:red;
-}
+ }
 
-p {
+ p {
 	padding: 10px;
 	margin: 0;
-}
+ }
 
-.container {
+ .container {
 	border: none;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
-}
+ }
 
-section {
+ section {
 	border:1px solid black;
 	background-color: #00FF99;
 	width: 100%;
@@ -37,9 +37,9 @@ section {
 	color: black;
 	position: relative;
 	overflow: auto;
-}
+ }
 
-#chicken {
+ #chicken {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -51,9 +51,9 @@ section {
 	margin-top: 0;
 	padding: 5px;
 	background-color: #FFFF00;
-}
+ }
 
-#beef {
+ #beef {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -65,9 +65,9 @@ section {
 	margin-top: 0;
 	padding: 5px;
 	background-color: #FF1439;
-}
+ }
 
-#sushi {
+ #sushi {
 	border: 1px solid black;
 	text-align: center;
 	width: 30%;
@@ -81,14 +81,14 @@ section {
 	background-color: #6495ED;
 	color: white;
 	padding: 5px;
-}
+ }
 
-.row {
+ .row {
 	width: 100%;
-}
+ }
 /* Desktop view */
 
-@media (min-width: 992px){
+ @media (min-width: 992px){
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{
 		float: left;
 	}
